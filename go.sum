@@ -23,6 +23,8 @@ github.com/manageai-inet/Eino-ManageAI-Extension/components/core/manageai v0.0.0
 github.com/manageai-inet/Eino-ManageAI-Extension/components/core/manageai v0.0.0-20260424131043-a6360f3314d1/go.mod h1://Rev9saVPK1Dx5JdFqt1i+OKqR2wi/UGRQWKZKQC5o=
 github.com/manageai-inet/agentic-assets v0.0.0-20260427040033-b72c72bb0c0e h1:+c1GRyDGzFK4UNH8RiJSa1cO0M0NnjVX76GQq//jDU4=
 github.com/manageai-inet/agentic-assets v0.0.0-20260427040033-b72c72bb0c0e/go.mod h1:oGadTIcWajPrU1S/nEsHjVTBKtU7pWTvKFIKpI7aM9s=
+github.com/manageai-inet/agentic-assets v0.0.0-20260427103748-3cef0a0108fb h1:7k3IULkTiBNCiJq00MB7dX3XOSxm/tFasnkmte2pWV8=
+github.com/manageai-inet/agentic-assets v0.0.0-20260427103748-3cef0a0108fb/go.mod h1:oGadTIcWajPrU1S/nEsHjVTBKtU7pWTvKFIKpI7aM9s=
 github.com/openai/openai-go v1.12.0 h1:NBQCnXzqOTv5wsgNC36PrFEiskGfO5wccfCWDo9S1U0=
 github.com/openai/openai-go v1.12.0/go.mod h1:g461MYGXEXBVdV5SaR/5tNzNbSfwTBBefwc+LlDCK0Y=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
