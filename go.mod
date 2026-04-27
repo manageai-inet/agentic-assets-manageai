@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/manageai-inet/Eino-ManageAI-Extension/components/core/manageai v0.0.0-20260424131043-a6360f3314d1
-	github.com/manageai-inet/agentic-assets v0.0.0-20260427040033-b72c72bb0c0e
+	github.com/manageai-inet/agentic-assets v0.0.0-20260427103748-3cef0a0108fb
 	github.com/openai/openai-go v1.12.0
 )
 
