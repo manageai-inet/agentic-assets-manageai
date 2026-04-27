@@ -1,4 +1,4 @@
-module github.com/manageai-inet/agentic-assets-manageai.git
+module github.com/manageai-inet/agentic-assets-manageai
 
 go 1.25.0
 
