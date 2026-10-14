@@ -27,13 +27,6 @@ func NewEmbedderFromEnv() *Embedder {
 	if model == "" {
 		panic("`MAI_EMBEDDING_MODEL` environment variable is not set")
 	}
-	redirectHelper := mai.GetRedirectHelper()
-	redirectModel, err := redirectHelper.GetModelId(&model, false)
-	if err != nil {
-		panic("`MAI_EMBEDDING_MODEL` environment variable is not set as valid model: " + err.Error())
-	}
-	model = *redirectModel
-
 	dimStr := os.Getenv("MAI_EMBEDDING_DIM")
 	if dimStr == "" {
 		panic("`MAI_EMBEDDING_DIM` environment variable is not set")
