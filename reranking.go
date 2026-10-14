@@ -25,12 +25,6 @@ func NewRerankerFromEnv() *Reranker {
 	if model == "" {
 		panic("`MAI_RERANKING_MODEL` environment variable is not set")
 	}
-	redirectHelper := mai.GetRedirectHelper()
-	redirectModel, err := redirectHelper.GetModelId(&model, false)
-	if err != nil {
-		panic("`MAI_RERANKING_MODEL` environment variable is not set as valid model: " + err.Error())
-	}
-	model = *redirectModel
 	return &Reranker{client: client, model: model}
 }
 
